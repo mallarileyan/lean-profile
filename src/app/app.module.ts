@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CertificateComponent } from './certificate/certificate.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
+    CertificateComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
